@@ -1,0 +1,571 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-image: url("http://mikslawncare.com/wp-content/uploads/2013/12/black-background-wood.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 19, ../sass/style.scss */
+.logo {
+  position: absolute;
+  top: -20px;
+  width: 200px;
+  height: 100px;
+  left: 42%;
+}
+@media (max-width: 700px) {
+  /* line 19, ../sass/style.scss */
+  .logo {
+    left: 0;
+  }
+}
+
+/* line 23, ../sass/style.scss */
+.title {
+  text-align: center;
+}
+
+/* line 24, ../sass/style.scss */
+.tae2 {
+  max-width: 300px;
+  max-height: 180px;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+@media (max-width: 700px) {
+  /* line 24, ../sass/style.scss */
+  .tae2 {
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
+  }
+}
+
+/* line 26, ../sass/style.scss */
+.text {
+  font-size: 200%;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: -50px;
+}
+
+/* line 28, ../sass/style.scss */
+.j {
+  color: white;
+}
+/* line 29, ../sass/style.scss */
+.j:hover {
+  color: #E6E6E6;
+  text-decoration: none;
+}
+
+/* line 31, ../sass/style.scss */
+.z {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  /* line 35, ../sass/style.scss */
+  .z {
+    width: 100%;
+    height: 200px;
+  }
+}
+/* line 36, ../sass/style.scss */
+.f {
+  width: 100%;
+}
+
+/* line 37, ../sass/style.scss */
+.text2 {
+  font-size: 200%;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* line 38, ../sass/style.scss */
+.box {
+  max-width: 200%;
+  height: 500px;
+  margin-top: 100px;
+}
+
+/* line 39, ../sass/style.scss */
+.s {
+  margin-top: 100px;
+}
+@media (max-width: 700px) {
+  /* line 39, ../sass/style.scss */
+  .s {
+    display: none;
+  }
+}
+
+/* line 43, ../sass/style.scss */
+.mix {
+  width: 100%;
+}
+
+/* line 44, ../sass/style.scss */
+.b1 {
+  height: 100px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: 0;
+  border: 0;
+  -moz-box-shadow: 0px -10px 10px black inset;
+  -webkit-box-shadow: 0px -10px 10px black inset;
+  box-shadow: 0px -10px 10px black inset;
+  font-weight: bold;
+  color: black;
+  font-size: 200%;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 50, ../sass/style.scss */
+.b1:active {
+  outline: 0;
+  border: 0;
+  -moz-box-shadow: 0px 0px 0px black inset;
+  -webkit-box-shadow: 0px 0px 0px black inset;
+  box-shadow: 0px 0px 0px black inset;
+}
+
+/* line 54, ../sass/style.scss */
+.box2 {
+  max-width: 200%;
+  height: 500px;
+  margin-top: 100px;
+  background-color: #1B1B1B;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: 0;
+  border: 0;
+}
+@media (max-width: 700px) {
+  /* line 54, ../sass/style.scss */
+  .box2 {
+    height: 600px;
+  }
+}
+
+/* line 57, ../sass/style.scss */
+.i {
+  width: 100%;
+  height: 70%;
+}
+
+/* line 58, ../sass/style.scss */
+.i2 {
+  width: 100%;
+  height: 70%;
+  display: none;
+}
+
+/* line 59, ../sass/style.scss */
+.i3 {
+  width: 100%;
+  height: 70%;
+  display: none;
+  position: absolute;
+  z-index: 300;
+  left: 0;
+  top: 0;
+}
+
+/* line 61, ../sass/style.scss */
+.l {
+  text-align: center;
+  margin-top: 0%;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/* line 63, ../sass/style.scss */
+.a, .b {
+  -moz-box-shadow: 0px -5px 5px black inset;
+  -webkit-box-shadow: 0px -5px 5px black inset;
+  box-shadow: 0px -5px 5px black inset;
+  font-weight: bold;
+  color: black;
+  border: 0;
+  outline: 0;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10%;
+  width: 100px;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+/* line 65, ../sass/style.scss */
+.a:active, .b:active {
+  -moz-box-shadow: 0px 0px 0px black inset;
+  -webkit-box-shadow: 0px 0px 0px black inset;
+  box-shadow: 0px 0px 0px black inset;
+}
+
+/* line 67, ../sass/style.scss */
+.buttons {
+  margin-left: 27%;
+  margin-top: 5%;
+}
+
+@media (max-width: 700px) {
+  /* line 68, ../sass/style.scss */
+  .a {
+    margin-bottom: 20px;
+  }
+}
+/* line 74, ../sass/style.scss */
+#feedback-page {
+  text-align: center;
+}
+
+/* line 78, ../sass/style.scss */
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+/* line 84, ../sass/style.scss */
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+/* line 100, ../sass/style.scss */
+.feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+}
+
+/* line 118, ../sass/style.scss */
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid black;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+/* line 127, ../sass/style.scss */
+.focused {
+  color: #30aed6;
+  border: black solid 3px;
+}
+
+/* Icons ---------------------------------- */
+/* line 133, ../sass/style.scss */
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+/* line 140, ../sass/style.scss */
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+/* line 148, ../sass/style.scss */
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+/* line 155, ../sass/style.scss */
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+/* line 162, ../sass/style.scss */
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+/* line 169, ../sass/style.scss */
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+/* line 176, ../sass/style.scss */
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color: white;
+}
+
+/* line 180, ../sass/style.scss */
+.email {
+  opacity: 0;
+}
+
+/* line 181, ../sass/style.scss */
+#button-blue {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+/* line 199, ../sass/style.scss */
+#button-blue:hover {
+  background-color: transparent;
+  color: grey;
+}
+
+/* line 204, ../sass/style.scss */
+.submit:hover {
+  color: #3498db;
+}
+
+/* line 208, ../sass/style.scss */
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+/* line 219, ../sass/style.scss */
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 580px) {
+  /* line 225, ../sass/style.scss */
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+/* line 250, ../sass/style.scss */
+footer {
+  position: absolute;
+  top: 600px;
+  text-align: center;
+  border-top: 3px solid white;
+  width: 100%;
+}
+@media (max-width: 700px) {
+  /* line 250, ../sass/style.scss */
+  footer {
+    width: 80%;
+  }
+}
+
+/* line 259, ../sass/style.scss */
+.navbar {
+  background-color: #808080;
+  border-color: #808080;
+}
+/* line 262, ../sass/style.scss */
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+/* line 264, ../sass/style.scss */
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+/* line 266, ../sass/style.scss */
+.navbar .navbar-text {
+  color: #ffffff;
+}
+/* line 270, ../sass/style.scss */
+.navbar .navbar-nav > li > a {
+  color: #ffffff;
+}
+/* line 272, ../sass/style.scss */
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+/* line 286, ../sass/style.scss */
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #808080;
+}
+/* line 290, ../sass/style.scss */
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #808080;
+}
+/* line 293, ../sass/style.scss */
+.navbar .navbar-toggle {
+  border-color: #808080;
+}
+/* line 295, ../sass/style.scss */
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background-color: #808080;
+}
+/* line 297, ../sass/style.scss */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+/* line 299, ../sass/style.scss */
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ffffff;
+}
+/* line 302, ../sass/style.scss */
+.navbar .navbar-link {
+  color: #ffffff;
+}
+/* line 304, ../sass/style.scss */
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  /* line 308, ../sass/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  /* line 310, ../sass/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  /* line 313, ../sass/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #808080;
+  }
+}
